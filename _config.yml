@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
+title: Napolian Tomatos Consultancy
+subtitle: 'Small words like this always matter.'
 description: ''
-keywords:
-author: John Doe
+keywords: 
+author: Lasagna Chenn
 language: en
-timezone: ''
+timezone: 'Asia/Hong_Kong'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -95,4 +95,6 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: ''
+  type: git
+  repo: git@github.com:NLasagna/NLasagna.github.io.git
+  branch: master
