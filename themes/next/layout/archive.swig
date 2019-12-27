@@ -26,7 +26,10 @@
         {% else %}
           {%- set cheers = 'um' %}
         {%- endif %}
-        <span class="collection-header">{{ __('cheers.' + cheers) }}! {{ _p('counter.archive_posts', site.posts.length) }} {{ __('keep_on') }}</span>
+
+        <!-- 下方为了「禁止鼓励」而修改过。 -->
+        <span class="collection-header"><!-- {{ __('cheers.' + cheers) }}! --> {{ _p('counter.archive_posts', site.posts.length) }} <!-- {{ __('keep_on') }} --></span>
+      
       </div>
 
       {{ post_template.render(page.posts) }}

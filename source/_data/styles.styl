@@ -1,26 +1,39 @@
-.main-inner { 
-    margin-top: 60px;
-    padding: 60px 60px 60px 60px;
-    background: #ffffff;
-    opacity: 0.8;
-    min-height: 500px;
-}
 
 
-//#方块式标题框
+
+/*#方块式标题框*/
 .site-title {
 	line-height: 12;
 }
 
 
-//消除顶部细线
+/*消除顶部细线*/
 .headband {
 background: #222;
 height: 0px;
 }
 
+/*移动端自适应brand*/
+.brand {
+    +mobile() {
+    display: flow-root;
+    padding: 0 0px;
+    }
+    +tablet() {
+    display: inline-block;
+    padding: 0 40px;
+    }
+  }
 
-//降低#方块式标题框高度
-.header-inner {
-padding-top: 180px;
+/*不显示发稿日期图标*/
+.fa {
+display: none;
 }
+
+
+
+/*去除归档页鼓励
+.posts-collapse .collection-header {
+	display: none;
+}*/
+

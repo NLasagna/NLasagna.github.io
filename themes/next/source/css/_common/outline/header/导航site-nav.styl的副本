@@ -1,11 +1,10 @@
-//汉堡显示与否
 .site-nav-toggle {
   display: none;
   left: 10px;
   position: absolute;
 
   +mobile() {
-    display: none;
+    display: block;
   }
 
   .toggle {
@@ -25,7 +24,10 @@
 .site-nav {
   display: block;
 
-
+  +mobile() {
+    clear: both;
+    display: none;
+  }
 
   &.site-nav-on {
     display: block;

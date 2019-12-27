@@ -47,7 +47,7 @@ favicon:
   #android_manifest: /images/manifest.json
   #ms_browserconfig: /images/browserconfig.xml
 
-footer:
+footer: 
   # Specify the date when the site was setup. If not defined, current year will be used.
   #since: 2015
 
@@ -63,7 +63,7 @@ footer:
 
   # If not defined, `author` from Hexo `_config.yml` will be used.
   copyright: 
-    #kakabobo from Hexo `_config.yml`
+    Lasagna Chenn
   powered: 
     # Hexo link (Powered by Hexo).
     enable: true
@@ -72,7 +72,7 @@ footer:
 
   theme:
     # Theme & scheme info link (Theme - NexT.scheme).
-    enable: true
+    enable: false
     # Version info of NexT after scheme info (vX.X.X).
     version: false
 
@@ -122,9 +122,9 @@ scheme: Muse
 menu:
   #home: / || home
   about: /about/ || #user
-  #tags: /tags/ || tags
-  categories: /categories/ || #th
-  #archive: /archives/ || #archive
+  # tags: /tags/ || #tags
+  # categories: /categories/ || #th
+  archives: /archives/ || #archive
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
@@ -162,7 +162,7 @@ sidebar:
   # Sidebar offset from top menubar in pixels (only for Pisces | Gemini).
   offset: 12
   # Enable sidebar on narrow view (only for Muse | Mist).
-  onmobile: true #之前是 false
+  onmobile: false
 
 # Sidebar Avatar
 avatar:
@@ -181,11 +181,11 @@ site_state: true
 # Key is the link label showing to end users.
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 social:
-  GitHub: https://github.com/yourname || github
+  #GitHub: https://github.com/yourname || github
   #E-Mail: mailto:yourname@gmail.com || envelope
   #Weibo: https://weibo.com/yourname || weibo
   #Google: https://plus.google.com/yourname || google
-  Twitter: https://twitter.com/yourname || twitter
+  #Twitter: https://twitter.com/yourname || twitter
   #FB Page: https://www.facebook.com/yourname || facebook
   #StackOverflow: https://stackoverflow.com/yourname || stack-overflow
   #YouTube: https://youtube.com/yourname || youtube
@@ -422,13 +422,13 @@ font:
   # Global font settings used for all elements inside <body>.
   global:
     external: true
-    family: Lato
+    family: 
     size:
 
   # Font settings for site title (.site-title).
   title:
     external: true
-    family:
+    family: #Inria Serif #Open Sans 
     size:
 
   # Font settings for headlines (<h1> to <h6>).
@@ -440,7 +440,7 @@ font:
   # Font settings for posts (.post-body).
   posts:
     external: true
-    family:
+    family: #Noto Serif SC #Noto Sans TC
 
   # Font settings for <code> and code blocks.
   codes:
