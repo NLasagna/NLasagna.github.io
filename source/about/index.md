@@ -3,7 +3,7 @@ title:
 date: 2019-12-09 19:26:36
 ---
 
-# 关于我
+# 关于我 | [<font color=#dcdcdc>关于<ruby>拿波里人<rt>Napolian</rt>西红柿<rt>Tomatoes</rt>询价公司<rt>Consultancy</rt></ruby></font>](/../about/site)
 
 
 
@@ -27,7 +27,7 @@ date: 2019-12-09 19:26:36
 
 基本如此。我是我尚未认识的人。我相信对自己的记录可以有所帮助，因此搭建此站。
 
-请移玉步**[关于此站](site)**。  
+请移玉步**[关于此站](/../about/site)**。  
 
 ## 連絡先
 
