@@ -1,6 +1,6 @@
 ---
-title: 测试 & 指引
-tags: test
+title: 指引和测试
+tags: 
 date: 2019-12-27 15:45:37
 ---
 
@@ -12,13 +12,16 @@ date: 2019-12-27 15:45:37
 
 初到此地的同学莫要惊慌，可以先在[关于中了解我](about/)。
 
-接下来的计划有：
+接下来关于本站的计划有：
 
 - 优化
-  - 部署 RSS 订阅
+  - 部署 [RSS 订阅](/../rss2.xml)  (已完成)
 - 可行性研究
   - 全站夜间模式
   - 更好的衬线字体
-  - 标签系统的必要
+  - 标签系统
 - 文章和项目
-  - Rick and Morty Season 4 Review ( /Analyse/Explain)
+  - 上海咖啡游记（2019.01）
+  - 视频/播客：Rick & Morty Season 4 Review/Analyse/Explain
+<br>
+updated in 2020.01.03

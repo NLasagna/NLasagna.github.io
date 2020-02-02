@@ -11,7 +11,7 @@ date: 2019-12-09 19:26:36
 
 现在的身份有：暂时没正事的､ 希望行万里路的､ 一辈子的学生。Airbnb（爱彼迎）的[房东](https://www.airbnb.cn/users/show/119075605)。两所小学校的京剧教师。是果粉吗？是，其实是果蛆。
 
-在写房东介绍时，Airbnb 的指引很棒：「您离开了哪几样东西就不能活？」我迷失了。我的确有一大堆喜欢的事，似乎还没有会要命的。小时候上过 Lego 的编程**机器人**课，从小也喜欢**天文和观星**，一直对科学和技术着迷。学过贝斯和古琴，自己乱弹着钢琴，喜欢**乐理**，受益于官大为老师的[好和弦](https://www.youtube.com/channel/UCVXstWyJeO6No3jYELxYrjg)，以后有机会就会自己做音乐。**音乐**喜欢这些人（们）： the Beatles、YMO、郭顶、刘惜君、窦靖童、the Beach Boys、南瓜妮歌迷俱乐部。风格上有点怕 Pop 了，喜欢 Downtempo 等很多不太躁的电子乐和老摇滚，以及很多 Indie 和 Alter. 都喜欢。K- 和 J- 的也总听。喜欢**语言学**，打发时间时脑子里都在琢磨语言的事。学明白了数门语言——的字母表，以后会先把韩语、日语（先）学明白。跟着同学学了粤语，水平大概是在香港可以不讲普通话（但是[第一次看见肉桂](https://twitter.com/Edge790/status/1071687785747103744?s=20)还是只能讲 Cinnamon）。喜欢**摄影**，准备过学摄影专业，一直在拍，不迷器材。喜欢**咖啡**，在星巴克兼职过，也在精品咖啡（[Specialty Coffee](https://sca.coffee/research/what-is-specialty-coffee)）店呆过，不满意，以后中彩票就会自己开。**游戏**，感觉自己被戒断了，有时很想玩但不知道玩什么。没有游戏机，很想有，也很想有一起打的朋友。
+在写房东介绍时，Airbnb 的指引很棒：「您离开了哪几样东西就不能活？」我迷失了。我的确有一大堆喜欢的事，似乎还没有会要命的。小时候上过 Lego 的编程**机器人**课，从小也喜欢**天文和观星**，一直对科学和技术着迷。学过贝斯和古琴，自己乱弹着钢琴，喜欢**乐理**，受益于官大为老师的[好和弦](https://www.youtube.com/channel/UCVXstWyJeO6No3jYELxYrjg)，以后有机会就会自己做音乐。**音乐**喜欢这些人（们）： the Beatles、YMO、郭顶、刘惜君、窦靖童、the Beach Boys、南瓜妮歌迷俱乐部。风格上有点怕 Pop 了，喜欢 Downtempo 等很多不太躁的电子乐和老摇滚，以及很多 Indie 和 Alter. 都喜欢。但是 K-Pop 和 J-Pop 也总听。喜欢**语言学**，打发时间时脑子里都在琢磨语言的事。学明白了数门语言——的字母表，以后会先把韩语、日语（先）学明白。跟着同学学了粤语，水平大概是在香港可以不讲普通话（但是[第一次看见肉桂](https://twitter.com/Edge790/status/1071687785747103744?s=20)还是只能讲 Cinnamon）。喜欢**摄影**，准备过学摄影专业，一直在拍，不迷器材。喜欢**咖啡**，在星巴克兼职过，也在精品咖啡（[Specialty Coffee](https://sca.coffee/research/what-is-specialty-coffee)）店呆过，不满意，以后中彩票就会自己开。**游戏**，感觉自己被戒断了，有时很想玩但不知道玩什么。没有游戏机，很想有，也很想有一起打的朋友。
 
 但是在关键的小升初时去了北京，学了京剧，上了专业中学，一直走到大学，改了[戏曲导演](http://www.nacta.edu.cn/zzjg/dyx/zysz12/index.htm)，足足十六年都在此行。实在地说我有一点天赋，整个升学和学习的过程没花什么心思，也没给家里负担，当时看到 [Jesse 说自己的](https://jesor.me/aboutme/)就像是在说我：
 
@@ -27,7 +27,7 @@ date: 2019-12-09 19:26:36
 
 基本如此。我是我尚未认识的人。我相信对自己的记录可以有所帮助，因此搭建此站。
 
-请移玉步**[关于此站](/../about/site)**。  
+请移玉步[关于此站](/../about/site)。 敬请订阅[本站 RSS](/../rss2.xml)。
 
 ## 連絡先
 
@@ -37,6 +37,8 @@ date: 2019-12-09 19:26:36
 Telegram：[t.me/Lasagna_Chenn](https://t.me/Lasagna_Chenn)，Channel：[t.me/Oasis_di_Lasagna](https://t.me/oasis_di_lasagna)
 iMessage：Edge790@iCloud.com
 电子邮件：ZatePlus@gmail.com
+Youtube：[Youtube.com/channel/...](https://www.youtube.com/channel/UC3t_4mmq21QyytrFKwoUuFg)
+
 Instagram：[Instagram.com/lasagna_chenn](https://www.instagram.com/lasagna_chenn)
 
 Apple Music，烦请通过[中毒之选](https://music.apple.com/us/playlist/poison-choice/pl.u-MDAWvVDt4dlmPK)播放列表找到我。

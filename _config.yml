@@ -49,6 +49,21 @@ highlight:
   auto_detect: false
   tab_replace: ''
 
+# 新嘢 RSS
+feed:
+  type: rss2
+  path: rss2.xml
+  limit: 20
+  hub:
+  content: true
+  content_limit:
+  content_limit_delim: ' '
+  order_by: -date
+  icon: icon.png
+  autodiscovery: true
+  template:
+
+
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
