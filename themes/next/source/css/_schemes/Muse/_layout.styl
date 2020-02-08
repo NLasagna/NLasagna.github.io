@@ -8,7 +8,7 @@
     width: auto;
     margin-top: 0px;
     padding: 60px 0px 60px 0px;
-    background: #fff;
+/*    background: #fff;*/
     opacity: 1;
     min-height: 500px;}
 }
@@ -35,3 +35,116 @@ embed {
   display: block;
   margin: 0 auto 25px auto;
 }
+
+/*更改链接颜色*/
+/*a {
+        color: #8BB4F9;
+        background: #0c0c0c;
+    }
+*/
+
+/*深色模式*/
+@media (prefers-color-scheme: dark) {
+    body {
+        color: #fff;
+        background: #0c0c0c;
+    }
+
+    a {
+        color: #8BB4F9;
+    }
+        /* [a] == link, #0A84FF, iOS Dark Dlue. #369fe4, Original. #4285F4, Android Blue.*/
+    footer p {
+        color: #aaa;
+    }
+
+    header h1,
+    header h2 {
+        color: #fff;
+    }
+
+    header h1 a {
+        color: #fff;
+    }
+
+    /*nav ul li {
+        background: #000;
+    }*/
+
+    .divider {
+        border-bottom: 1px solid #ddd;
+    }
+    /* pleace after this continue optimize: */
+    blockquote {
+      color: #949494;
+      border-left: 4px solid #515151;
+    }
+
+    .brand {
+        background: #151515;
+    }
+
+    .posts-expand .post-title-link {
+        color: #fff;
+    }
+
+    a:hover/*, span.exturl:hover*/ {
+        border-bottom-color: #9fc8f9;
+        color: rgb(159, 200, 249);
+    }
+
+
+    /*抑制链接下划线，本来是 border-bottom: 1px solid #8BB4F9 */
+    a, span.exturl {
+        border-bottom: #000;
+    }
+
+    .menu .menu-item a {
+        color: #bebebe;
+    }
+
+    /*代码块优化*/
+
+    .highlight, pre, .highlight .code pre, td {
+        background: #181818;
+    }
+
+    .highlight, pre {
+        color: #fff;
+    }
+
+    .highlight .gutter pre {
+        background: #222;
+    }
+
+    pre .keyword, pre .javascript .function {
+        color: #ff0071;
+    }
+
+    pre .attribute {
+        color: #25dbf2;
+    }
+
+    pre .number {
+        color: #b679ff;
+    }
+
+    /*选中文字 伪元素*/
+    ::selection {
+       background: #f6f7f8;
+       color: #0f0f0f;
+    }
+    a::selection {
+       color: #6f5884;
+    }
+
+
+/*深色模式结束*/
+}
+
+
+
+
+
+
+

@@ -14,14 +14,16 @@ date: 2019-12-27 15:45:37
 
 接下来关于本站的计划有：
 
-- 优化
-  - 部署 [RSS 订阅](/../rss2.xml)  (已完成)
+- 已完成的优化
+  - 部署 [RSS 订阅](/../rss2.xml) 
+  - 全站[夜间模式](/../2020/02/Dark-Mode-ma/#合)
+  - Google Analytic
 - 可行性研究
-  - 全站夜间模式
   - 更好的衬线字体
   - 标签系统
 - 文章和项目
   - 上海咖啡游记（2019.01）
+  - 猎人｜契诃夫短篇小说翻译
   - 视频/播客：Rick & Morty Season 4 Review/Analyse/Explain
-<br>
-updated in 2020.01.03
+    <br>
+    updated in 2020.02.06

@@ -7,6 +7,7 @@ date: 2019-12-31 20:26:36
 ---
 
 <img src="https://i.loli.net/2019/12/31/QrO8sFnLRV6wdmf.jpg" > 
+
 <div align="center">新界，屯門紅橋
 </div>
 
@@ -60,6 +61,4 @@ I can’t tell why I love HK out right now, there’s no profound ends. The city
  <div align="center"><img src="https://i.loli.net/2019/12/31/SQp7rsmnPK8NjMq.jpg" >
  </div>
 <br>
-
-[^1]: 
 

@@ -27,7 +27,7 @@
           {%- set cheers = 'um' %}
         {%- endif %}
 
-        <!-- 下方为了「禁止鼓励」而修改过。 -->
+        <!-- 下方为了「禁止鼓励」而修改过。 源代码 -->
         <span class="collection-header"><!-- {{ __('cheers.' + cheers) }}! --> {{ _p('counter.archive_posts', site.posts.length) }} <!-- {{ __('keep_on') }} --></span>
       
       </div>

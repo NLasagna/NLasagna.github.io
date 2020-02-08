@@ -48,10 +48,11 @@
 
           {%- if theme.post_meta.created_at %}
             <span class="post-meta-item">
-              <span class="post-meta-item-icon">
+              <!-- <span class="post-meta-item-icon">
                 <i class="fa fa-calendar-o"></i>
               </span>
-              <span class="post-meta-item-text">{{ __('post.posted') }}</span>
+              源代码，这些就是日历图标和「发表于」字样。
+              <span class="post-meta-item-text">{{ __('post.posted') }}</span> -->
 
               {%- if not date_diff and time_diff and theme.post_meta.updated_at.enable and theme.post_meta.updated_at.another_day %}
                 {%- set create_title = __('post.created') + __('symbol.colon') + full_date(post.date) + ' / ' + __('post.modified') + __('symbol.colon') + time(post.updated) %}

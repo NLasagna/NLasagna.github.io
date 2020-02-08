@@ -3,7 +3,7 @@ title:
 date: 2019-12-09 19:26:36
 ---
 
-# 关于我 | [<font color=#dcdcdc>关于<ruby>拿波里人<rt>Napolian</rt>西红柿<rt>Tomatoes</rt>询价公司<rt>Consultancy</rt></ruby></font>](/../about/site)
+# 关于我 | [<font color=#808080>关于<ruby>拿波里人<rt>Napolian</rt>西红柿<rt>Tomatoes</rt>询价公司<rt>Consultancy</rt></ruby></font>](/../about/site)
 
 
 

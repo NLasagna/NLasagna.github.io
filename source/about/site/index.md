@@ -4,7 +4,7 @@ tags:
 - Ulysess
 date: 2019-12-09 19:26:36
 ---
-# [<font color=#dcdcdc>关于我</font>](/../about) | 关于<ruby>拿波里人<rt>Napolian</rt>西红柿<rt>Tomatoes</rt>询价公司<rt>Consultancy</rt></ruby>
+# [<font color=#808080>关于我</font>](/../about) | 关于<ruby>拿波里人<rt>Napolian</rt>西红柿<rt>Tomatoes</rt>询价公司<rt>Consultancy</rt></ruby>
 
 
 
@@ -26,5 +26,5 @@ date: 2019-12-09 19:26:36
 
 ## 技术使用
 
-- 静态网页框架 [Hexo](https://hexo.io/zh-tw/docs/) 和 [NexT](https://github.com/theme-next/hexo-theme-next/blob/master/docs/zh-CN/README.md) 之 Muse 主题模板，托管于 [GitHub Pages](https://pages.github.com/)
-- [Sublime Text 3](http://sublimetext.com/) 编辑和修改，[Git](https://git-scm.com/) 部署，[Markdown](https://daringfireball.net/projects/markdown/) 编纂
+- 静态网页框架 [Hexo](https://hexo.io/zh-tw/docs/) 和 [NexT](https://github.com/theme-next/hexo-theme-next/blob/master/docs/zh-CN/README.md) 之 Muse 主题模板，托管于 [GitHub Pages](https://pages.github.com/)，由 [Google Analytic](https://analytics.google.com) 提供分析。
+- [Sublime Text 3](http://sublimetext.com/) 编辑和修改，[Git](https://git-scm.com/) 部署，[Markdown](https://daringfireball.net/projects/markdown/) 编纂。
