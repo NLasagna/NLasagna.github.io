@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.4.0">
+
+<!-- <script>
+  (function(d) {
+    var config = {
+      kitId: 'gur3lpl',
+      scriptTimeout: 3000,
+      async: true
+    },
+    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+  })(document);
+</script> -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+  <meta http-equiv="Cache-Control" content="no-transform">
+  <meta http-equiv="Cache-Control" content="no-siteapp">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
+
+
+<script id="hexo-configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    hostname: new URL('http://nlasagna.github.io').hostname,
+    root: '/',
+    scheme: 'Muse',
+    version: '7.6.0',
+    exturl: false,
+    sidebar: {"position":"right","display":"remove","padding":18,"offset":12,"onmobile":false},
+    copycode: {"enable":false,"show_result":false,"style":null},
+    back2top: {"enable":false,"sidebar":false,"scrollpercent":false},
+    bookmark: {"enable":false,"color":"#222","save":"auto"},
+    fancybox: false,
+    mediumzoom: false,
+    lazyload: false,
+    pangu: false,
+    algolia: {
+      appID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    },
+    localsearch: {"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},
+    path: '',
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}
+  };
+</script>
+
+  <meta property="og:type" content="article">
+<meta property="og:title" content="探店：OPS 的腔调">
+<meta property="og:url" content="http://nlasagna.github.io/2020/02/distinguishing-of-ops/index.html">
+<meta property="og:site_name" content="Napolian Tomatoes Consultancy">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://tva1.sinaimg.cn/large/0082zybpgy1gbp1ho94zsj31410u0arc.jpg">
+<meta property="og:image" content="https://tva1.sinaimg.cn/large/0082zybpgy1gbnvyu6482j30u0140e84.jpg">
+<meta property="og:image" content="https://tva1.sinaimg.cn/large/0082zybpgy1gbnvzcwf4mj31400u0u0x.jpg">
+<meta property="og:image" content="https://tva1.sinaimg.cn/large/0082zybpgy1gbnw3o72xmj30u0140kjl.jpg">
+<meta property="og:image" content="https://tva1.sinaimg.cn/large/0082zybpgy1gbp1hnv7hcj30u013gnpd.jpg">
+<meta property="og:image" content="https://tva1.sinaimg.cn/large/0082zybpgy1gbp1hprs3xj30u0156aih.jpg">
+<meta property="article:published_time" content="2020-02-08T09:11:05.000Z">
+<meta property="article:modified_time" content="2021-04-26T04:07:03.000Z">
+<meta property="article:author" content="Lasagna Chenn">
+<meta property="article:tag" content="travel notes">
+<meta property="article:tag" content="coffee">
+<meta property="article:tag" content="review">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://tva1.sinaimg.cn/large/0082zybpgy1gbp1ho94zsj31410u0arc.jpg">
+
+<link rel="canonical" href="http://nlasagna.github.io/2020/02/distinguishing-of-ops/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome: false,
+    isPost: true,
+    isPage: false,
+    isArchive: false
+  };
+</script>
+
+  <title>探店：OPS 的腔调 | Napolian Tomatoes Consultancy</title>
+  
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155343102-1"></script>
+    <script>
+      if (CONFIG.hostname === location.hostname) {
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-155343102-1');
+      }
+    </script>
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+<link rel="alternate" href="/rss2.xml" title="Napolian Tomatoes Consultancy" type="application/rss+xml">
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-meta">
+
+    <div>
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Napolian Tomatoes Consultancy</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+  </div>
+
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+</div>
+
+
+<nav class="site-nav">
+  
+  <ul id="menu" class="menu">
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-fw fa-"></i>关于</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-fw fa-"></i>标签</a>
+
+  </li>
+  </ul>
+
+</nav>
+</div>
+    </header>
+
+    
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content">
+            
+
+  <div class="posts-expand">
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://nlasagna.github.io/2020/02/distinguishing-of-ops/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Lasagna Chenn">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Napolian Tomatoes Consultancy">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          探店：OPS 的腔调
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <!-- <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              源代码，这些就是日历图标和「发表于」字样。
+              <span class="post-meta-item-text">发表于</span> -->
+
+              <time title="创建时间：2020-02-08 17:11:05" itemprop="dateCreated datePublished" datetime="2020-02-08T17:11:05+08:00">2020-02-08</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <blockquote>
+<span id="more"></span>
+</blockquote>
+<p><img src="https://tva1.sinaimg.cn/large/0082zybpgy1gbp1ho94zsj31410u0arc.jpg" alt="图像 42"></p>
+<iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="150" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/addio-a-cheyenne/497254428?i=497254494&app=music"></iframe>
+<blockquote>
+<p>按：本文 2019 年 1 月 26 日原载于<a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/WsyKzi3MgV-oYKpF_3MApQ"><em>左手咖啡右手茶</em></a>，是家母以「品得了咖啡与茶，就品得了生活滋味」为理念而开办的公众号专栏。本站建立的初衷之一，也包含了要以同样的方式为老妈的说书台另辟一片开阔之地。所以在一年后我把这篇文章重新刊登，原因有二：</p>
+<p>第一、昭告本站之涉猎。本站绝不会仅有牢骚/技术/文学/分享/游记，而是志在兼其所有。上海话讲的<a target="_blank" rel="noopener" href="https://baike.baidu.com/item/%E4%B8%80%E5%A4%A9%E4%B8%96%E7%95%8C"><ruby>一天世界<rt>yìh tī sɿ̄ ga</rt></ruby></a>也是本站的目标。</p>
+<p>第二、探索独立的博客在排版上，究竟如何与微信公众号提供的程式化的模版模式抗衡？在这里如何做得比微信好？代价和学习成本又是什么？</p>
+</blockquote>
+</br>
+<h4 id="环状线几乎绕了半个城，">环状线几乎绕了半个城，</h4>
+<p>把我从外滩那个上海带到了这个上海 —— 「视咖啡为传统的上海」（跟我说这话的那位咖啡师小哥不无自豪地暴露了上海人在咖啡上的优越感）。我心想，五口通商之前，上海不就一小渔村……下次再遇到哪个「渔村贵族」跟我这个乡巴佬嘚瑟，我当场就给他㨃回去 😬！</p>
+<blockquote>
+<p>咖啡本是泊来品，不过上海确实拥有相对长的咖啡历史。民国时期的旧上海，上咖啡馆已是最为摩登的时尚。上海人以喝咖啡为雅，以吃大蒜为俗😣。历经一个多世纪，上海已成了全国咖啡馆最密集的城市，据 2019 年的数据统计，上海共有 7801 家咖啡馆，比第二名的北京多出了 2800 多家，是第三名广州的两倍。</p>
+</blockquote>
+<p>说来上海探店，我没有理会网上疯传的「必去清单」，一来是对大众点评之类的信任早就瓦解了，二来也是听闻上海咖啡「很有腔调」，即使一般小店的品质都不会低（对，这就是我给懒惰找到的借口）。于是在去上海之前跟 <a target="_blank" rel="noopener" href="http://www.dianping.com/shop/65065509">BANA COFFEE</a> 的龙哥军哥磨蹭了一天，套出几家「好中之好」的店。最终他们推荐的店也果然成为了我此行的全场最佳，OPS CAFÉ，是印象最深的一家。</p>
+<blockquote>
+<p><em>OPS</em></p>
+<p>Open-minded：开明的</p>
+<p>Possibilities：可能性</p>
+<p>Space：空间或场所</p>
+<p>店主说，取名初衷是想为客人提供「一个思想开放的、没有偏见的、充满可能性的空间」。</p>
+</blockquote>
+<p>OPS CAFÉ 藏身于上海徐汇区老城中，按我的印象就是北京前门那一片建筑的感觉，只不过换成了上海式的小楼房小弄堂。一条窄窄的马路旁，门面简单，里面却窄到可能香港人都会嫌逼仄的程度，整体不会超过 10 平方米。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0082zybpgy1gbnvyu6482j30u0140e84.jpg" alt="IMG_0654"></p>
+<p>他们为自己的吧台留出了充足的空间以便操作，食客们却只能挤在好似潜水艇的内舱中，还得站着饮完，所以有人干脆出门晒着太阳喝。我跟平时不逛咖啡馆的老弟讲，这都不叫事，只要好喝，什么都能忍。然后口中默念军哥说必喝的：氮气冷萃有没有，氮气冷萃有没有？</p>
+<p><img src="https://tva1.sinaimg.cn/large/0082zybpgy1gbnvzcwf4mj31400u0u0x.jpg" alt="IMG_0657"></p>
+<p>咖啡师姐姐热情地迎上来，打消了我冬天喝冷萃的念头，她递给我了一份菜单，甚是新鲜：菜单不大，由一至七列出七款，好像他们家只卖这七样东西似的。</p>
+<p>菜单都是用拉丁字母命名，名字下简单地列出主要原料。我看了几款，发现既不是普通的<a target="_blank" rel="noopener" href="https://zh.wikipedia.org/wiki/%E6%BF%83%E7%B8%AE%E5%92%96%E5%95%A1">意式</a>咖啡，也不是<a target="_blank" rel="noopener" href="https://zh.wikipedia.org/wiki/%E6%BB%B4%E6%BC%8F%E5%BC%8F%E5%92%96%E5%95%A1">手工</a>，全都是圈里称为「特调」的「创意咖啡」。也就是说每一款咖啡都是这个店的原创，第一次来的人，谁也不知道会喝到什么味道。</p>
+<p>我点了一头一尾两款，隐隐感觉应该都是招牌名品，就像晚会节目单，第一个节目叫「开门炮」，最后一个叫「<a target="_blank" rel="noopener" href="https://www.zhihu.com/question/20436202">大轴戏</a>」，都是最好的节目😏。点完单时，我才注意到「菜单」下的那个「冬」字，方知他们的菜单是按季节推出的。不错，值得期待。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0082zybpgy1gbnw3o72xmj30u0140kjl.jpg" alt="IMG_0655"></p>
+<p>OPS 的特色，是当着顾客面完成冲煮流程。每一杯出品，咖啡师都要认真地讲解背景、取材、冲煮方法。</p>
+<p>我们的第一杯叫 Old Sam （老山姆），主要由精酿啤酒和厌氧发酵埃塞俄比亚豆构成。咖啡师先用聪明杯萃取了浓度较高的咖啡液，装入了 Jameson IPA 精酿的一个高脚杯中，又在其上堆叠枫糖和稀奶油，就完成了。闷蒸时我就闻到了厌氧埃塞俄比亚豆浓重馥郁的烤坚果 —— 我说更像烤花生的风味，甚是愉快。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0082zybpgy1gbp1hnv7hcj30u013gnpd.jpg" alt="图像 41"></p>
+<blockquote>
+<p>品饮感想：</p>
+<p>上层奶油混合物较凉，和咖啡温度对比明显，在嘴里感觉奇特，而当它们温度逐渐一致，味觉上就立刻焕发出刚刚提到的、以烤坚果为主的丰富风味。</p>
+<p>枫糖奶油带来一定的醇度，给酒和咖啡做了绝佳的铺垫，随后的感觉很像一碗烤花生姜汤，清新并且温暖，刷新了我对于姜的认识。我不知道酒的风味和咖啡是怎样完美融合的，只是感受到它对整个喉咙的温润。</p>
+<p>我一向认为任何果实内核包涵的，是整株植物对于它经历的时空的理解，所有它认为要传承到下一代的精华，都集成在这个小宇宙中。花生是，咖啡樱桃（Coffee Cherry）也是，这杯咖啡让我再一次想到了这一点。</p>
+</blockquote>
+<p>第二杯是 Grapefruit <a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Fizz_(cocktail)">Fizz</a> （葡萄柚气泡菲兹），只有冰饮。很明显我能感觉到这并不是「冬」菜单应该出现的。一款主打「阳光沙滩海浪仙人掌」的饮品，能存活到冬天，必然与众不同。这杯饮品用了苦精酒和金酒，咖啡是苏打冷萃咖啡，也算是遂了我喝冷萃的心，水果用了西柚和青柠。印象深刻的是咖啡师将西柚皮挤压，汁雾喷洒在饮品的表面，竟然可以用这种方式来提升香气吗？</p>
+<p><img src="https://tva1.sinaimg.cn/large/0082zybpgy1gbp1hprs3xj30u0156aih.jpg" alt="图像 40"></p>
+<blockquote>
+<p>品饮感想：</p>
+<p>这杯饮落，没有任何话说，感觉热带雨林的一切风味尽收杯中。</p>
+<p>而其间你又不好定义任何一种具体的风味，只能感受到酒的热烈与冰的清爽。难以想象在上海的盛夏有这样一杯咖啡能带来多大的满足啊。</p>
+<p>最后放入的一片干西柚，用他们的朴实真诚的话说，既能提升风味，也能装饰整杯饮品🤣。咖啡师告诉我，店里也有黑咖奶咖，只是没有写在本身不大的菜单上而已。</p>
+</blockquote>
+<p>看来，的确「单如其店」。把老饕们耳熟能详的品类从台面上拿走，似乎可以把普罗大众拉到同一条开明、平等的起跑线上。在这里不用纠结豆子烘到什么度，牛奶煮到几分开，只要打开思维，想像、感受、体验，便能进入轻松美妙的味觉世界。</p>
+<p>我和老弟都很喜欢这个实诚的，它说什么你就能喝到什么的 OPS，老弟说这是他下学期还会再来的店，我只有心心念念，不知下一次什么时候能够再来。</p>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/travel-notes/" rel="tag"># travel notes</a>
+              <a href="/tags/coffee/" rel="tag"># coffee</a>
+              <a href="/tags/review/" rel="tag"># review</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2020/02/dark-mode-ma/" rel="prev" title="深色模式吗？">
+      <i class="fa fa-chevron-left"></i> 深色模式吗？
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2020/02/translation-of-the-hunter/" rel="next" title="猎人｜契诃夫短篇小说">
+      猎人｜契诃夫短篇小说 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+  </div>
+
+
+          </div>
+          
+
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+<!-- copyright 原来的位置 -->
+
+
+<!-- 源代码，关于footer的额外内容 -->
+<div class="powered-by">
+  <!-- <strong> -->
+  <a href="/../rss2.xml">RSS <i class="fa fa-rss"></i></a> 
+  &emsp;
+  <a href="/../about/#連絡先">联络方式</a>
+  &emsp;
+  仰仗 Hexo 强力驱动
+</div>
+<!-- </br> -->
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2025</span>
+  <span class="with-love">
+    <i class="fa fa-"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Lasagna Chenn</span>
+</div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>

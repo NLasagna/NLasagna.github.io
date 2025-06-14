@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400px" height="400px" viewBox="0 0 400 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>logo</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="logo" fill-rule="nonzero">
+            <rect id="path3384" fill="#222222" x="0" y="0" width="400" height="400"></rect>
+            <polygon id="path3384-path" fill="#D8D8D8" points="293 298.9 274.6 309.6 256 298.6 144 156.3 144 298.9 125.6 309.6 107 298.6 107 101.6 125.5 91 144 101.8 256 246.3 256 101.7 274.5 91.1 293 101.9"></polygon>
+            <path d="M400,400 L0,400 L0,0 L400,0 L400,400 Z M382,382 L382,18 L18,18 L18,382 L382,382 Z" id="矩形-2" fill="#D8D8D8"></path>
+        </g>
+    </g>
+</svg>

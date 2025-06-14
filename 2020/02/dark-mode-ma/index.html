@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.4.0">
+
+<!-- <script>
+  (function(d) {
+    var config = {
+      kitId: 'gur3lpl',
+      scriptTimeout: 3000,
+      async: true
+    },
+    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+  })(document);
+</script> -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+  <meta http-equiv="Cache-Control" content="no-transform">
+  <meta http-equiv="Cache-Control" content="no-siteapp">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
+
+
+<script id="hexo-configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    hostname: new URL('http://nlasagna.github.io').hostname,
+    root: '/',
+    scheme: 'Muse',
+    version: '7.6.0',
+    exturl: false,
+    sidebar: {"position":"right","display":"remove","padding":18,"offset":12,"onmobile":false},
+    copycode: {"enable":false,"show_result":false,"style":null},
+    back2top: {"enable":false,"sidebar":false,"scrollpercent":false},
+    bookmark: {"enable":false,"color":"#222","save":"auto"},
+    fancybox: false,
+    mediumzoom: false,
+    lazyload: false,
+    pangu: false,
+    algolia: {
+      appID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    },
+    localsearch: {"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},
+    path: '',
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}
+  };
+</script>
+
+  <meta property="og:type" content="article">
+<meta property="og:title" content="深色模式吗？">
+<meta property="og:url" content="http://nlasagna.github.io/2020/02/dark-mode-ma/index.html">
+<meta property="og:site_name" content="Napolian Tomatoes Consultancy">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://tva1.sinaimg.cn/large/006tNbRwgy1gbljy1ydi4j31780u0aeg.jpg">
+<meta property="og:image" content="https://tva1.sinaimg.cn/large/006tNbRwgy1gbljy56wu5j30ty0m4dge.jpg">
+<meta property="og:image" content="https://tva1.sinaimg.cn/large/006tNbRwgy1gbljy1dr8ej31uc0rcn85.jpg">
+<meta property="og:image" content="https://i.imgur.com/3WQl1sM.jpg">
+<meta property="og:image" content="https://i.imgur.com/sI6XRQ7.png">
+<meta property="og:image" content="https://i.imgur.com/anWS0F4.png">
+<meta property="og:image" content="https://tva1.sinaimg.cn/large/006tNbRwgy1gbljy3rnuxj311g0u0qcf.jpg">
+<meta property="og:image" content="https://tva1.sinaimg.cn/large/006tNbRwgy1gbljy5pgg6j318z0i1jt3.jpg">
+<meta property="og:image" content="https://tva1.sinaimg.cn/large/006tNbRwgy1gbljy47ba7j30jo0cywf9.jpg">
+<meta property="og:image" content="https://i.imgur.com/5UAGPON.gif">
+<meta property="article:published_time" content="2020-02-05T08:55:19.000Z">
+<meta property="article:modified_time" content="2021-04-11T10:39:18.000Z">
+<meta property="article:author" content="Lasagna Chenn">
+<meta property="article:tag" content="tutorial">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://tva1.sinaimg.cn/large/006tNbRwgy1gbljy1ydi4j31780u0aeg.jpg">
+
+<link rel="canonical" href="http://nlasagna.github.io/2020/02/dark-mode-ma/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome: false,
+    isPost: true,
+    isPage: false,
+    isArchive: false
+  };
+</script>
+
+  <title>深色模式吗？ | Napolian Tomatoes Consultancy</title>
+  
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155343102-1"></script>
+    <script>
+      if (CONFIG.hostname === location.hostname) {
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-155343102-1');
+      }
+    </script>
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+<link rel="alternate" href="/rss2.xml" title="Napolian Tomatoes Consultancy" type="application/rss+xml">
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-meta">
+
+    <div>
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Napolian Tomatoes Consultancy</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+  </div>
+
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+</div>
+
+
+<nav class="site-nav">
+  
+  <ul id="menu" class="menu">
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-fw fa-"></i>关于</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-fw fa-"></i>标签</a>
+
+  </li>
+  </ul>
+
+</nav>
+</div>
+    </header>
+
+    
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content">
+            
+
+  <div class="posts-expand">
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://nlasagna.github.io/2020/02/dark-mode-ma/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Lasagna Chenn">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Napolian Tomatoes Consultancy">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          深色模式吗？
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <!-- <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              源代码，这些就是日历图标和「发表于」字样。
+              <span class="post-meta-item-text">发表于</span> -->
+
+              <time title="创建时间：2020-02-05 16:55:19" itemprop="dateCreated datePublished" datetime="2020-02-05T16:55:19+08:00">2020-02-05</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <blockquote>
+<span id="more"></span>
+</blockquote>
+<h2 id="起">起</h2>
+<p>大概是从 2019 年开始，各大操作系统纷纷支持了深色模式（Dark Mode），自 iOS 13、Android 10 到 Windows、macOS（Catalina 支持了依靠日光时间来开关），都是在解决人机交互中长久以来的一个重要问题：白天屏幕全亮，模拟纸张，抵抗反光都很好，晚上就像举着照妖镜一般。除了与环境高对比度的自发光光源会对我们的眼睛造成伤害之外，这样的屏幕也逐渐和功耗与美学唱起了反调。于是有人说，来吧，我们用黑纸白字吧，按照这一面面「黑镜」的物理特性，早该这样了。所以早在系统们动手之前，很多人就开启了「反色模式」来做一定的替代。</p>
+<p>这里又是那个老问题，深色模式不就是反个色吗？有什么难的？iPad 不就是个<a target="_blank" rel="noopener" href="http://tech.sina.com.cn/n/2010-01-28/10401232617.shtml">大号的 iTouch</a> 吗？有什么区别？</p>
+<p>不就是吗？就是吗？我在实际行动中思考了一下。</p>
+<h2 id="承">承</h2>
+<p>刚刚为整个站点部署完成了深色模式。脑海里虽然有要逐个颜色调整的概念（开玩笑说做好了「Jony Ive 附身的准备」），但是依然花费了六七个小时（不止）来实现。此文作为分享整个有趣的过程，比起作为实际的教程要名副其实，也重要的多。</p>
+<p>之前使用了 <a target="_blank" rel="noopener" href="https://github.com/1v9/hexo-next-nightmode">hexo-next-nightmode</a> 插件，但后来发现本质其实很简单，用 CSS 里的 <code>prefers-color-scheme</code> 即可搞定，它可以对接并支援前面提到的所有现代操作系统的深色模式接口，随着你切换而改变，让网页和你的系统统一而行。</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/*深色模式*/</span></span><br><span class="line"><span class="keyword">@media</span> (<span class="attribute">prefers-color-scheme</span>: dark) &#123;</span><br><span class="line">    <span class="selector-tag">body</span> &#123;</span><br><span class="line">        <span class="attribute">color</span>: <span class="number">#fff</span>;</span><br><span class="line">        <span class="attribute">background</span>: <span class="number">#0c0c0c</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="selector-tag">a</span> &#123;</span><br><span class="line">        <span class="attribute">color</span>: <span class="number">#8BB4F9</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>从我一个外行看来，这段代码对于普通人也是很友好的。即：</p>
+<blockquote>
+<p>当你的媒介（media）在（at）深色（dark）偏好的颜色计划（prefers-color-scheme）时，把下面我提到的东西特别「处理」（即渲染）：</p>
+<p>​	把网页主体内容（body）的文字染成白色（RGB 颜色代码 #FFFFFF），背景（background）染成接近黑色（#0C0C0C）</p>
+<p>​	把链接（a）染成这个色（#8BB4F9）</p>
+<p>完事</p>
+</blockquote>
+<p>看上去似乎逐个替换就好了。甚至网上有人基本完成，只要把代码整段复制下来就好了。</p>
+<h2 id="转">转</h2>
+<p>在 _layout.styl 里贴上代码，本地实验，一切看起来都好，但是经不住第二眼。</p>
+<p><img src="https://tva1.sinaimg.cn/large/006tNbRwgy1gbljy1ydi4j31780u0aeg.jpg" alt="截屏2020-02-04下午7.51.15"></p>
+<h3 id="1">1</h3>
+<p>首页 logo 在深色下显得很亮，失去了原先浅色时那种「不纯黑的黑」的感觉。这不难，只是因为黑色环境衬托而已。在深色下稍微降低明度，绝对颜色变了，但是回归了之前的感觉。</p>
+<p><img src="https://tva1.sinaimg.cn/large/006tNbRwgy1gbljy56wu5j30ty0m4dge.jpg" alt="图像 36"></p>
+<h3 id="2">2</h3>
+<p>第二个问题涉及了 personal 审美和取舍。我注意到，深色化之后的文字与链接密集混排时，显得过于「耿直」—— 说白了就是对比度过高。白色文字已经反差很强，加上为了表示链接的下划线，整体有些凌乱。</p>
+<p><img src="https://tva1.sinaimg.cn/large/006tNbRwgy1gbljy1dr8ej31uc0rcn85.jpg" alt="图像 37"></p>
+<p>右边浅色界面显得不「耿直」的原因，是文字本身没有用纯黑色而是略灰（和 logo 想要表达的目的一样），而且即使用了，它也是自然地接近我们平时看到的书本纸张 —— 当然这也有人们不习惯黑底白字的惯性思维影响。我在盘算把文字向灰色调整的同时，也在考虑其他出路。因为一直没有找到合适的链接颜色，我想先尝试改变它看看。</p>
+<p>我首先想到 iOS 13 更新的<a target="_blank" rel="noopener" href="https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/color/#dynamic-system-colors">人机界面指导方针的「色彩」</a>一章提到一件很重要的事，即在黑白两种背景中，你使用的同一个颜色会出现「对比度和透明度」上的差异。方针建议开发者准备两套颜色以应对两种情况，并且提供了系统级的自适应颜色接口供使用。</p>
+<p><img src="https://i.imgur.com/3WQl1sM.jpg" alt="图像 35">可以看到黄色和蓝色笔触在两种背景下有不同的发色倾向。同时 iOS 备忘录使用的这种自适颜色机制也保证了观感上的统一。</p>
+<p>所以我打算先把 systemBlue，也就是「iOS 蓝」应用到我的博客中。</p>
+<img src="https://i.imgur.com/sI6XRQ7.png" alt="截屏2020-02-05上午11.14.27"  style="display: inline-block" />
+<p>实际我并不满意。比起链接，它们每一个长得更像 iOS 中的按钮了，并且由于对比度并不够高，有碍观瞻。深色模式下，下划线依旧显得累赘；浅色模式反倒弄巧成拙，原本的下划线链接已经够直观和美观了。这时我想到了另一种颜色， Android 10 中深色模式的浅蓝：</p>
+<img src="https://i.imgur.com/anWS0F4.png" alt="Screenshot_20200205-111608" style="zoom: 25%;" />
+<p>这个颜色乍看并不感觉能和浅色模式里动人的「Android 蓝」呼应，反而让人感觉有些纯粹为了和深色背景提高对比度的工具性考量。但是既然是地球上仅有的几个设计优先些的大公司的选择，那么我也不不妨一试。</p>
+<img src="https://tva1.sinaimg.cn/large/006tNbRwgy1gbljy3rnuxj311g0u0qcf.jpg" alt="截屏2020-02-03下午6.46.02" style="zoom: 33%;" />
+<p>我喜欢。在去掉了下划线后，整体观感我很满意。我认为它与浅色时整个站点的风格兼容性很高。很不错的链接色（；有点问题的系统按钮色）。</p>
+<h3 id="3">3</h3>
+<p>其实在翻阅各种设计指南时，维基百科<a target="_blank" rel="noopener" href="https://zh.wikipedia.org/wiki/Help:%E9%93%BE%E6%8E%A5%E9%A2%9C%E8%89%B2">指导编纂的页面</a>里面有一句话很是受用：</p>
+<blockquote>
+<p>……颜色可能看起来比相同文字的颜色更深；同样加大或加粗的文字看起来也会更深。</p>
+</blockquote>
+<p>这很好理解，文字本质上就是其中混入了背景的色块，看起来自然会受到影响，但是要察觉这一点却不容易。一检查这里就有现成的例子：</p>
+<p><img src="https://tva1.sinaimg.cn/large/006tNbRwgy1gbljy5pgg6j318z0i1jt3.jpg" alt="图像 38"></p>
+<p>本来在浅色下与引用文字协调的引用块头，在深色模式却显得过亮，过于凸显自己，改变了「引用」的含义。</p>
+<p>改它。</p>
+<img src="https://tva1.sinaimg.cn/large/006tNbRwgy1gbljy47ba7j30jo0cywf9.jpg" alt="截屏2020-02-04下午5.03.24" style="zoom:50%;" />
+<p>这样协调多了。</p>
+<p>其实最先解决的纯黑色背景的问题还没提到。有人说（搜索那篇文章中……）在 OLED 屏幕上完全关闭的像素启动时间很长，这样就会造成在纯黑色背景上移动的图像产生拖影。如果您使用的是 iPhone X 以后机型（除 iPhone XR 和 11 外）或是近两年的大部分 OLED 屏幕的 Android 手机，应该都能察觉到这个问题。</p>
+<p><img src="https://i.imgur.com/5UAGPON.gif" alt="ezgif-1-4a6a580724c5"></p>
+<center><a target="_blank" rel="noopener" href="https://twitter.com/marcedwards/status/1053519077958803456">Marc Edwards（@marcedwards）在啁啾会馆的示例图片</a></center>
+<p>深灰色方框周围是已关闭的像素，移动拖沓，而里面浅色方框周围像素被深色方框提前「开机」了，移动就正常了。实际上在 LCD 屏幕上两个方框在同速移动。拖影问题是其一，其二是纯黑色造成的大反差太过突兀。因此我把背景颜色提亮了一点点，避免了这两个问题。</p>
+<h2 id="合">合</h2>
+<p>再进行了一些小修补后，本站 1.0 版本的深色模式就完工了。您可以通过 Android/iOS 以及 macOS/Windows 系统的深色模式开关切换来体验两者。</p>
+<p>开头的问题，很显然，好的深色模式并不好做，甚至需要重新规划浅色的部分来调整。其意义也远不止于「注重外表美化」（我妈讲），而是通过修缮和增补让机器更适应人性和大自然的运作。对于未来人机更高效更舒适的互动，深色模式将是对人们重要到难以察觉，却无法离开的技术之一。</p>
+<p><em>（发稿时，国民聊天软件微信自 iOS 13 更新至今 139 天仍未适配深色模式，甚至八个月前在 WWDC 19， 苹果市场团队已经为微信设计好了<a target="_blank" rel="noopener" href="https://twitter.com/ilbkiki/status/1178319509725171712?s=20">大概的模版</a>。）</em><br>
+<br></p>
+<h3 id="附录：参考">附录：参考</h3>
+<p><a target="_blank" rel="noopener" href="https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/color/#dynamic-system-colors">Colour – Visual design – iOS – Human Interface Guidelines</a></p>
+<p><a target="_blank" rel="noopener" href="https://zh.wikipedia.org/wiki/Help:%E9%93%BE%E6%8E%A5%E9%A2%9C%E8%89%B2">帮助：链接颜色 - 维基百科</a></p>
+<p><a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme">prefers-color-scheme - CSS: cascading style sheets</a></p>
+<p><a target="_blank" rel="noopener" href="https://material.io/design/color/the-color-system.html#">The Color System - Material Design</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.wevg.org/archives/add-darkmode-support/">让网页支持深色模式 | Vigorous Pro</a></p>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/tutorial/" rel="tag"># tutorial</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2019/12/the-fifth-tour/" rel="prev" title="the Fifth Tour">
+      <i class="fa fa-chevron-left"></i> the Fifth Tour
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2020/02/distinguishing-of-ops/" rel="next" title="探店：OPS 的腔调">
+      探店：OPS 的腔调 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+  </div>
+
+
+          </div>
+          
+
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+<!-- copyright 原来的位置 -->
+
+
+<!-- 源代码，关于footer的额外内容 -->
+<div class="powered-by">
+  <!-- <strong> -->
+  <a href="/../rss2.xml">RSS <i class="fa fa-rss"></i></a> 
+  &emsp;
+  <a href="/../about/#連絡先">联络方式</a>
+  &emsp;
+  仰仗 Hexo 强力驱动
+</div>
+<!-- </br> -->
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2025</span>
+  <span class="with-love">
+    <i class="fa fa-"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Lasagna Chenn</span>
+</div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>
